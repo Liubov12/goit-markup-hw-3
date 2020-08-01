@@ -17,10 +17,6 @@ html{
     box-sizing: inherit;
 }
 body{
-    margin: 0;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
 
     background: var(--white-color);
     color: var(--primery-text-color);
@@ -30,10 +26,18 @@ body{
 
 }
 ul{
-    margin-top: 0;
-    margin-bottom: 0;
+   
     list-style:none 
 }
+.container{
+    margin-left: auto;
+     margin-right: auto;
+     width:1200px;
+     padding-left: 15px;
+     padding-right: 15px;
+     align-items: center;
+     justify-content: center;
+ }
 /* цвет основного текста #212121 */
 
 /* вторичный цвет текста  #757575 */
@@ -160,6 +164,8 @@ nav{
 .auth-nav{
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
    
 }
 /* banner */
@@ -169,7 +175,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-
+    background-color: var(--primery-text-color); 
     
 }
 .main-title{
@@ -230,11 +236,7 @@ nav{
     margin-bottom: 30px;
 }
 /* main container */
-.container{
-    margin-top: 0px ;
-    margin-bottom: 0px;
-    background-color: var(--primery-text-color);
-}
+
 .section{
 
     margin-top: 94px;
